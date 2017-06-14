@@ -6,7 +6,7 @@ A PXT packet for Seeed Studio Grove Two Temperature
 
 ```blocks
 // Create a module driver, specify the i2c address
-let temperature = Grove_Two_Temperature.create(DEVICE_ID_TYPE.GROVE_TWO_TEMPERATURE_DEF_I2C_ADDR);
+let temperature = Grove_Two_Temperature.create(GROVE_TWO_TEMPERATURE.DEF_I2C_ADDR);
 
 // Get temperature event vaule and display
 while(true)
